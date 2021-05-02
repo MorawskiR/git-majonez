@@ -1,0 +1,74 @@
+ 1982  cd git-majonez/
+ 1983  touch main.cpp
+ 1984  git add main.cpp 
+ 1985  git commit -m"Initial commit"
+ 1986  git status
+ 1987  git add main.cpp 
+ 1988  git commit -m"Initial commit"
+ 1989  git remote add origin https://github.com/kondorski/git-majonez.git
+ 1990  git remote add origin https://github.com/MorawskiR/git-majonez.git
+ 1991  got remote -V
+ 1992  git remote -v
+ 1993  git push -u origin master 
+ 1994  git pull
+ 1995  git push -u origin master 
+ 1996  git status
+ 1997  ls
+ 1998  cat main.cpp 
+ 1999  ls
+ 2000  cd Desktop/
+ 2001  ls
+ 2002  cd git-majonez/
+ 2003  ls
+ 2004  cd git-majonez/
+ 2005  ls
+ 2006  mkdir git-majonez
+ 2007  ls
+ 2008  cd git-majonez/
+ 2009  ls
+ 2010  touch main.cpp
+ 2011  vim main.cpp 
+ 2012  cat main.cpp 
+ 2013  g++ -o main main.cpp
+ 2014  ./main 
+ 2015  rm main
+ 2016  ls
+ 2017  git init
+ 2018  git add main.cpp
+ 2019  git status
+ 2020  git commit -m"Initial commit"
+ 2021  git status
+ 2022  git log
+ 2023  vim main.cpp 
+ 2024  git add main.cpp 
+ 2025  git commit -m"Farewell changed"
+ 2026  got log
+ 2027  git log
+ 2028  git show
+ 2029  git status
+ 2030  git remote add origin https://github.com/MorawskiR/git-majonez.git
+ 2031  git push -u origin master 
+ 2032  git branch cs
+ 2033  git branch
+ 2034  git checs
+ 2035  git checkout cs
+ 2036  git branch
+ 2037  git status
+ 2038  git log
+ 2039  git reset --hard 8f470d0ff0d028a1111d100b242a705ab1e623a9
+ 2040  git log
+ 2041  vim main.cpp 
+ 2042  cat main.cpp 
+ 2043  git status
+ 2044  git add main.cpp 
+ 2045  git commit -am"Greetings"
+ 2046  git log
+ 2047  git push origin cs
+ 2048  git checkout master
+ 2049  git merge cs
+ 2050  git status
+ 2051  git commit -a
+ 2052  git status 
+ 2053  git log
+ 2054  history
+ 2055  history | tail -74 >> history.txt
